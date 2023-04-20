@@ -29,6 +29,18 @@ public class FireBulletOnActivate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(isPressed)
+        {
+            FireBullet(null);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            FireBullet(null);
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            StopFiring(null);
+        }
     }
 
     public void FireBullet(ActivateEventArgs arg)

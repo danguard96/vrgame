@@ -78,7 +78,7 @@ public class FireShotgunOnActivate : MonoBehaviour
             Rigidbody rigidbody = hit.collider.gameObject.GetComponent<Rigidbody>();
             if (rigidbody != null)
             {
-                Vector3 hitDirection = -1 * hit.transform.TransformDirection(spawnPoint.position);
+                Vector3 hitDirection = hit.transform.TransformDirection(spawnPoint.position);
                 rigidbody.AddForceAtPosition(hitDirection * BulletForce, hit.point);
             }
         }
