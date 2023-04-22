@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: e134330ee913f4547be463d57c4772b0
+  - enabled: 1
+    path: Assets/Scenes/Target Practice.unity
+    guid: b867cdf11ab4ef74a8ee0dba354b776f
+  - enabled: 1
+    path: Assets/Scenes/Horde.unity
+    guid: 3053563e1bdc3cd4ab0426ed3fed3384
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

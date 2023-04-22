@@ -7,7 +7,7 @@ TagManager:
   - Left Hand
   - Right Hand
   - Enemy
-  - Team2
+  - Bullet
   - Concrete
   - BHException
   - Wood
@@ -23,8 +23,8 @@ TagManager:
   - Interactable
   - Table
   - Hands
-  - 
-  - 
+  - Slider
+  - Button
   - 
   - 
   - 
